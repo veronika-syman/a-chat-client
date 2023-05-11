@@ -6,7 +6,7 @@ const sendButton = document.getElementById('send');
 
 let isOnConnect = false;
 
-const socketURL = 'wss://server.onrender.com';
+const socketURL = 'wss://server-nl0m.onrender.com';
 //const socketURL = 'ws://localhost:9000';
 
 let socket = new WebSocket(socketURL);
